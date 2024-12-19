@@ -1,4 +1,4 @@
-<div class="col-12 col-md-3">
+<div class="col-12 col-md-4">
     <div class="card m-3" style="width: 18rem;">
         <img src="{{$productImg}}" class="card-img-top img-fluid" alt="phone image">
         <div class="card-body">

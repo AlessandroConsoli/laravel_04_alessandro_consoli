@@ -27,7 +27,7 @@ class ProductsController extends Controller
     public function productDetails($id){
         foreach ($this->products as $product) {
             if ($id == $product['id']) {
-                return view('dettagliArticolo');
+                return view('dettagliArticolo', ['product'=>$product]);
             }
         }
     }

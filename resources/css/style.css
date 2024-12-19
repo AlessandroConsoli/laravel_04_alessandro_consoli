@@ -1,7 +1,19 @@
 body{
-    background-color: blue;
+    background-color: rgb(206, 206, 255);
 }
 
-/* .img-custom{
-    
-} */
+.navbar{
+    padding-top: 0;
+}
+
+.navbar_custom{
+    background-color: rgb(173, 173, 220);
+}
+
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+
+.brand{
+    font-size: 80px;
+}
